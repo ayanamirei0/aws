@@ -1,0 +1,97 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+table{/*border-collapse:collapse;border-spacing:0;*/}
+q:before,q:after{content:'';}  
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+input[type="submit"], input[type="reset"], input[type="button"],input[type="text"],input[type="password"],textarea, button { 
+    -webkit-appearance: none !important; /*去掉苹果的默认UI来渲染按钮*/} 
+    
+a{outline:none; text-decoration:none;}
+a:hover{ text-decoration:underline;}
+
+html{overflow-x: hidden;}
+body{overflow-x: hidden; font-size:12px;} 
+fieldset,a img{border:0;} caption,th{text-align:left;} 
+
+em,i{ font-style:normal;}
+
+html{zoom:1;} html *{outline:0;zoom:1;} 
+html button::-moz-focus-inner{border-color:transparent!important;} 
+html{-webkit-text-size-adjust:none; /*解决chrome浏览器下字体不能小于12px*/}
+
+/* 添加特殊的字体 */
+/* @font-face{font-family: "FrutigerLTStd-Roman";src: url(../Akamai-font-family/font_frutiger_mac/FrutigerLTStd-Roman.otf);}  */
+
+body{ color:#000000; font-family:"FrutigerLTStd-Roman","微软雅黑",Verdana, Arial, Helvetica, sans-serif;}
+
+html {
+   font-size:62.5%
+}
+
+@media only screen and (min-width:321px) { /*iphone5*/
+html {
+font-size:62.5%!important
+}
+}
+@media only screen and (min-width:361px) { /*Ÿnote*/
+html {
+font-size:70.31%!important
+}
+}
+@media only screen and (min-width:376px) { /*iphone6*/
+html {
+font-size:73.24%!important
+}
+}
+@media only screen and (min-width:481px) {
+html {
+font-size:94%!important
+}
+}
+@media only screen and (min-width:561px) {
+html {
+font-size:109%!important
+}
+}
+@media only screen and (min-width:641px) {
+html {
+font-size:125%!important
+}
+}
+
+/* 媒体查询 */
+/* @media only screen and (min-width: 320PX) and (max-width:360PX) {
+    html {
+        font-size:13.65px !important
+    }
+}
+
+@media only screen and (min-width: 360PX) and (max-width:375PX) {
+    html {
+        font-size:15.36px !important
+    }
+}
+
+@media only screen and (min-width: 375PX) and (max-width:390PX) {
+    html {
+        font-size:16px !important
+    }
+}
+
+@media only screen and (min-width: 390PX) and (max-width:414PX) {
+    html {
+        font-size:16.64px !important
+    }
+}
+
+@media only screen and (min-width: 414PX) and (max-width:640PX) {
+    html {
+        font-size:17.664px !important
+    }
+}
+
+@media screen and (min-width: 640PX) {
+    html {
+        font-size:27.31px !important
+    }
+} */

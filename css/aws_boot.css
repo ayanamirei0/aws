@@ -1,0 +1,414 @@
+html{overflow-x: hidden;}
+
+.header{
+    position: relative;
+}
+.header .title{
+    text-align: center;
+}
+.header img{
+    width: 100%;
+    height: 5rem;
+}
+/* .header .container{
+    line-height: 5rem;
+} */
+
+
+/* .row .gyaws{
+    width: 10%;
+} */
+.header .navbar-default{
+    background-color: #ffffff;
+    border: none;
+}
+.navbar-header .navbar-toggle .icon-bar{
+    background-color: #262626;
+    height: 4px
+}
+.container .navbar-header .navbar-brand{
+    padding: 0;
+}
+.banner{
+    margin-top: 60px;
+}
+.banner .swiper-container img{
+    width: 100%;
+}
+
+
+/* section */
+.main .container .row .title h1, h5{
+    text-align: center;
+}
+.main .container .row .sub-title span:first-child{
+    margin-left: 1.5rem;
+}
+.main .container .title p:first-child{
+    margin-top: 5rem;
+    font-family: 'Arial-Black';
+    font-size: 4rem;
+    color: #252525;  
+    padding-bottom: .7rem; 
+}
+.main .container .title p:nth-child(2){
+    margin: auto;
+    width: 4.5rem;
+    height: 2px;
+    background-color: #40B3E5;
+    margin-bottom: .7rem;
+}
+.main .container .title h5{
+    color: #BFBFBF;
+    padding-top: .7rem;
+    margin:2rem 0 4rem 0;
+    font-size: 1.5rem;
+}
+.main .container .item img{
+    margin-bottom: 1rem;
+}
+.main .container .item .sub-title{
+    position: relative;
+}
+.main .container .item .sub-title p{
+    margin-top: 1rem;
+    color: #919191;
+    overflow: hidden;
+}
+.main .container .item .sub-title :first-child{
+    color: #262626;
+    font-weight: 600;
+    padding-right: 1rem;
+}
+.main .container .item .sub-title :first-child:after{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: #D8D8D8;
+    bottom: 4%;
+    left: 24%;
+    border-radius: 50%;
+}
+.main .container .item .sub-title span:nth-child(2){
+    color: #909090;
+}
+
+
+/* 中间大背景图 */
+.main .bg img{
+    width: 100%;
+    height: 21rem;
+}
+
+/* 公司介绍 */
+.main .gsjs .title h1, h5{
+    text-align: center;
+}
+.main .gsjs .title h1{
+    position: relative;
+    width: 30rem;
+    margin: auto;
+}
+.main .gsjs .title .line_left:before{
+    content: "";
+    width: 4.2rem;
+    height: 2px;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 48%;
+    left: 3%;
+}
+.main .gsjs .title .line_right:after{
+    content: "";
+    width: 4.2rem;
+    height: 2px;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 48%;
+    left: 82%;
+}
+.main .gsjs .title h5{
+    color: #D5D5D5;
+    margin:2rem 0 4rem 0;
+}
+.main .gsjs .title p:nth-child(3){
+    text-align: center;
+    color: #959595;
+    margin-top: 1rem;
+}
+.main .gsjs .title p:nth-child(4){
+    text-align: center;
+    color: #959595;
+    font-size: 1.5rem;
+    margin:.5rem 0 4rem 0;
+}
+
+.main .gsjs .container{
+    /* display: flex; */
+    border-bottom: 1px solid #B5D6E4;
+    margin-bottom: 3rem; 
+    margin: 0 10%;
+    padding-bottom: 7rem;
+}
+.main .gsjs .container .text{
+    margin-bottom: 4rem;
+}
+.main .gsjs .container .text p:first-child{
+    color: #707070;
+    font-size: 1.5rem;
+    /* padding-bottom: 3rem; */
+}
+.main .gsjs .container .text p:last-child{
+    width: 10rem;
+    height: 3.5rem;
+    color: #40B3E5;
+    border: 1px solid #40B3E5;
+    text-align: center;
+    line-height: 3.5rem;
+    margin-top: 1rem;
+}
+
+
+/* 公司动态 */
+.main .gsdt{
+    margin-top: 7rem;
+}
+.main .gsdt .title h1{
+    position: relative;
+    width: 30rem;
+    margin: auto;
+}
+.main .gsdt .title h1, h5{
+    text-align: center;
+}
+.main .gsdt .title h5{
+    color: #D5D5D5;
+    margin:2rem 0 4rem 0;
+}
+.main .gsdt .title .line_left:before{
+    content: "";
+    width: 4.2rem;
+    height: 2px;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 48%;
+    left: 3%;
+}
+.main .gsdt .title .line_right:after{
+    content: "";
+    width: 4.2rem;
+    height: 2px;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 48%;
+    left: 82%;
+}
+.main .gsdt .container .describe, .main .gsdt .container .describe div{
+    padding: 0;
+}
+.main .gsdt .container .describe .title{
+    padding-top: 1rem;
+}
+.main .gsdt .container .describe .text p:first-child{
+    color: #323232;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main .gsdt .container .describe .text p:last-child{ /*多行文本超出显示省略号*/
+    color: #959595;
+    font-size: 1.2rem;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.main .gsdt .container ul{
+    list-style: none;
+}
+.main .gsdt .container ul div{
+    color: #40B3E5;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+.main .gsdt .container ul li{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px dashed #E7E7E7; 
+    padding: .8rem  0 .8rem 1rem;
+    color: #323232;
+    font-weight: 600;
+}
+.main .gsdt .container ul li:last-child{
+    border-bottom: 1px dashed #B5D6E4;
+    padding: 1.5rem 0;
+}
+.main .gsdt .container .list .text{
+    color: #323232;
+    width: 73%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main .gsdt .container .list .text:before{
+    content:'';
+    display: inline-block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #40B3E5;
+    top: 42%;
+    left: 0%;
+}
+.main .gsdt .container .list .date{
+    color: #B8B8B8;
+    font-weight: normal;
+}
+
+
+/* footer */
+.footer{
+    margin-top: 7rem;
+    border-bottom:4px solid #40B3E5; 
+}
+.footer .title h1, h5{
+    text-align: center;
+}
+.footer .title h5{
+    color: #D5D5D5;
+    margin:2rem 0 4rem 0;
+}
+.footer .title h1{
+    position: relative;
+    width: 30rem;
+    margin: auto;
+}
+.footer .title .line_left:before{
+    content: "";
+    width: 4.2rem;
+    height: 2px;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 48%;
+    left: 3%;
+}
+.footer .title .line_right:after{
+    content: "";
+    width: 4.2rem;
+    height: 2px;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 48%;
+    left: 82%;
+}
+.footer .title p:nth-child(2){
+    color: #D5D5D5;
+    margin-top: .5rem;
+    font-size: 1.5rem;
+}
+.footer .logo{
+    margin: 1.3rem 5rem 4rem 5rem;
+    text-align: center;
+}
+.footer .logo img{
+    width: 7.3%;
+    height: 2.3%;
+}
+
+/* 登陆 */
+.login{
+    padding-top: 3rem;
+}
+.login form .line{
+    color:#252525;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.login form .line span:before{
+    content: "";
+    width: 3px;
+    height: 2rem;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 10%;
+    left: -1%;
+}
+.login .info .line{
+    color:#252525;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.login .info .line span:before{
+    content: "";
+    width: 3px;
+    height: 2rem;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 10%;
+    left: -1.5%;
+}
+.login .info .row .code img{
+    width: 100%;
+}
+.login form input{
+    outline:none;    
+    border:1px solid #DADADA;  
+}
+.login form span{
+    color: #5e5e5e;
+    font-size: 1.5rem;
+    margin-right: .3rem;
+}
+.login form div{
+    margin-bottom: 2rem;
+}
+.login .email{
+    width: 26rem;
+    height: 2.3rem;
+}
+.login .name{
+    width: 9rem;
+    height: 2.1rem;
+}
+.login .tel{
+    width: 11.9rem;
+    height: 2.1rem;
+}
+.login textarea{
+    width: 26rem;
+    height: 8rem;
+    resize: none;
+}
+.login .indent{
+    text-indent: 3rem;
+}
+.login .indent .name{
+    margin-right: 1rem;
+}
+.login .btn{
+    margin-left: 6.5rem;
+    color: #ffffff;
+    background-color: #40B3E5;
+    width: 7rem;
+    padding: .3rem .9rem;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 0;
+}
+.login .contact{
+    padding-top: 1rem;
+}
+.login .contact p{
+    font-size: 1.5rem;
+    color: #919191;
+}

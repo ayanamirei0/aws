@@ -1,0 +1,220 @@
+html{overflow-x: hidden;}
+
+.header{
+    position: relative;
+}
+.header .title{
+    text-align: center;
+}
+.header img{
+    width: 100%;
+    height: 5rem;
+}
+.header .container{
+    line-height: 5rem;
+}
+.header .navbar-default{
+    background-color: #ffffff;
+    border: none;
+}
+.navbar-header .navbar-toggle .icon-bar{
+    background-color: #262626;
+    height: 4px
+}
+.container .navbar-header .navbar-brand{
+    padding: 0;
+}
+
+
+/* section */
+.main .banner img{
+    width: 100%;
+}
+.header .breadcrumb{
+    height: 5rem;
+    line-height: 5rem;
+    padding: 0 0 0 10%;
+    margin: 0;
+}
+.header .breadcrumb a{
+    /* text-decoration: none; */
+    color: #1b1b1b;
+}
+.header .breadcrumb>li+li:before{
+    color: #1b1b1b;
+}
+.header .breadcrumb .active{
+    color: #40B3E5;
+}
+.main .container .sub_title{
+    padding: 6rem 0 5.5rem 5%;
+}
+.main .container .sub_title h5{
+    color: #AEAEAE;
+}
+.main .container .sub_title .line span{
+    display: inline-block;
+    width: 2.2rem;
+    height: 2px;
+    background-color: #40B3E5;
+}
+.container .gsjj{
+    padding: 0 5% 5rem 5%;
+}
+.container .gsjj .img{
+    padding: 0;
+}
+.container .gsjj .img img{
+    width: 100%;
+    height: 35rem;
+}
+.container .row .narrate{
+    text-indent: 2.8rem;
+    color: #585858;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    padding-right: 2rem;
+}
+
+
+/* 资质证书 */
+.main .container .zzzs{
+    margin-bottom: 8rem;
+}
+.main .container .zzzs h2{
+    position: relative;
+    width: 30rem;
+    margin: auto;
+}
+.main .container .zzzs h2, .zzzs h5{
+    text-align: center;
+}
+.main .container .zzzs h5{
+    color: #D5D5D5;
+    margin:2rem 0 4rem 0;
+}
+.main .container .zzzs .title .line_left:before{
+    content: "";
+    width: 4.2rem;
+    height: 2px;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 48%;
+    left: 3%;
+}
+.main .container .zzzs .title .line_right:after{
+    content: "";
+    width: 4.2rem;
+    height: 2px;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 48%;
+    left: 82%;
+}
+.main .container .zzzs .title{
+    margin: 0 4% 7rem 5%;
+    padding: 8rem 0 0 0;
+    border-top: 1px dashed #B5D6E4;
+}
+.zzzs .container .row img{
+    width: 100%;
+}
+.zzzs .container .row p{
+    text-align: center;
+}
+
+/* 登陆 */
+.bottom_line{
+    width: 100%;
+    border-top: 4px solid #40B3E5;
+}
+.login{
+    padding-top: 3rem;
+}
+.login form .line{
+    color:#252525;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.login form .line span:before{
+    content: "";
+    width: 3px;
+    height: 2rem;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 10%;
+    left: -1%;
+}
+.login .info .line{
+    color:#252525;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.login .info .line span:before{
+    content: "";
+    width: 3px;
+    height: 2rem;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 10%;
+    left: -1.5%;
+}
+.login .info .row .code img{
+    width: 100%;
+}
+.login form input{
+    outline:none;    
+    border:1px solid #DADADA;  
+}
+.login form span{
+    color: #5e5e5e;
+    font-size: 1.5rem;
+    margin-right: .3rem;
+}
+.login form div{
+    margin-bottom: 2rem;
+}
+.login .email{
+    width: 26rem;
+    height: 2.3rem;
+}
+.login .name{
+    width: 9rem;
+    height: 2.1rem;
+}
+.login .tel{
+    width: 11.9rem;
+    height: 2.1rem;
+}
+.login textarea{
+    width: 26rem;
+    height: 8rem;
+    resize: none;
+}
+.login .indent{
+    text-indent: 3rem;
+}
+.login .indent .name{
+    margin-right: 1rem;
+}
+.login .btn{
+    margin-left: 6.5rem;
+    color: #ffffff;
+    background-color: #40B3E5;
+    width: 7rem;
+    padding: .3rem .9rem;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 0;
+}
+.login .contact{
+    padding-top: 1rem;
+}
+.login .contact p{
+    font-size: 1.5rem;
+    color: #919191;
+}

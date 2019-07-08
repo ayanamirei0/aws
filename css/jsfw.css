@@ -1,0 +1,324 @@
+html{overflow-x: hidden;}
+h5{
+    color: #D5D5D5;
+    margin:2rem 0 4rem 0;
+}
+
+.header{
+    position: relative;
+}
+.header .title{
+    text-align: center;
+}
+.header img{
+    width: 100%;
+    height: 5rem;
+}
+.header .container{
+    line-height: 5rem;
+}
+.header .navbar-default{
+    background-color: #ffffff;
+    border: none;
+}
+.navbar-header .navbar-toggle .icon-bar{
+    background-color: #262626;
+    height: 4px
+}
+.container .navbar-header .navbar-brand{
+    padding: 0;
+}
+
+/* section */
+.main{
+    margin-bottom: 8rem;
+}
+.main .banner img{
+    width: 100%;
+}
+.header .breadcrumb{
+    height: 5rem;
+    line-height: 5rem;
+    padding: 0 0 0 10%;
+    margin: 0;
+}
+.header .breadcrumb a{
+    /* text-decoration: none; */
+    color: #1b1b1b;
+}
+.header .breadcrumb>li+li:before{
+    color: #1b1b1b;
+}
+.header .breadcrumb .active{
+    color: #40B3E5;
+}
+
+
+.main .container{
+    margin-top: 6rem;
+}
+.main .container .row .title p,h5{
+    text-align: center;
+}
+.main .container .row .title span{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-color: #40B3E5;
+    font-size: 2.5rem;
+    color: #ffffff;
+    line-height: 28px;
+}
+.main .container .row .title p{
+    font-size: 3rem;
+}
+
+/* 技术简介 */
+.main .container .jsjj{
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+}
+.main .container .jsjj .text{
+    text-indent: 2.5rem;
+    color: #585858;
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+}
+
+
+/* 技术路线 */
+.main .container .jslx{
+    border-top: 1px dashed #B5D6E4;
+    border-bottom: 1px dashed #B5D6E4;
+    /* margin: 0 5%;  */
+    padding: 6rem 0;
+}
+.main .container .jslx .img{
+    padding: 0 15%;
+}
+.main .container .jslx .img img{
+    text-align: center;
+}
+.main .tab{
+    padding: 6rem 0;
+}
+.main .tab .title{
+    padding: 2rem 0;
+}
+.main .tab .syjy, .tab .jscs{
+    padding: 0 3rem;
+}
+.main .tab table, th, td{
+    text-align: center;
+    border: 1px solid #979797;
+    color: #979797;
+}
+.main .tab th,td{
+    height: 3.5rem;
+}
+.main .tab .title div{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+.main .tab .title span{
+    text-align: center;
+}
+
+/* 案例分析 */
+.case_fx{
+    margin-top: 8rem;
+}
+.case_fx .title h2{
+    text-align: center;
+    position: relative;
+    width: 30rem;
+    margin: auto;
+}
+.case_fx .title .line_left:before{
+    content: "";
+    width: 4.2rem;
+    height: 2px;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 48%;
+    left: 3%;
+}
+.case_fx .title .line_right:after{
+    content: "";
+    width: 4.2rem;
+    height: 2px;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 48%;
+    left: 82%;
+}
+.case_fx .case_text p:nth-child(1){
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.case_fx .case_text p:nth-child(2){
+    color: #585858;
+    font-size: 1.35rem;
+    font-weight: 500;
+    line-height: 2rem;
+    text-indent: 2.5rem
+}
+.case_fx .case_text span{
+    display: inline-block;
+    width: 4.3rem;
+    height: 2rem;
+    background-color: #40B3E5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 2rem;
+}
+.case_fx .case_img img{
+    margin-bottom: 2.5rem;
+}
+.case_fx .case_1{
+    border-bottom: 1px dashed #B5D6E4;
+    padding-bottom: 6rem;
+}
+
+.case_fx .case_2{
+    margin-top: 8rem;
+    border-bottom: 1px dashed #B5D6E4;
+    padding-bottom: 6rem;
+}
+
+/* 参考文献 */
+.docs{
+    margin-top: 8rem;
+}
+.docs .title h2{
+    text-align: center;
+    position: relative;
+    width: 30rem;
+    margin: auto;
+}
+.docs .describe p{
+    padding: 0 25%;
+    text-align: center;
+    color: #C2C2C2;
+}
+.docs .describe p:nth-child(3){
+    color: #000000;
+    font-size: 1rem;
+}
+.docs .title .line_left:before{
+    content: "";
+    width: 4.2rem;
+    height: 2px;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 48%;
+    left: 3%;
+}
+.docs .title .line_right:after{
+    content: "";
+    width: 4.2rem;
+    height: 2px;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 48%;
+    left: 82%;
+}
+
+/* 登陆 */
+.bottom_line{
+    width: 100%;
+    border-top: 4px solid #40B3E5;
+}
+.login{
+    padding-top: 3rem;
+}
+.login form .line{
+    color:#252525;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.login form .line span:before{
+    content: "";
+    width: 3px;
+    height: 2rem;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 10%;
+    left: -1%;
+}
+.login .info .line{
+    color:#252525;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.login .info .line span:before{
+    content: "";
+    width: 3px;
+    height: 2rem;
+    background-color: #40B3E5;
+    position: absolute;
+    top: 10%;
+    left: -1.5%;
+}
+.login .info .row .code img{
+    width: 100%;
+}
+.login form input{
+    outline:none;    
+    border:1px solid #DADADA;  
+}
+.login form span{
+    color: #5e5e5e;
+    font-size: 1.5rem;
+    margin-right: .3rem;
+}
+.login form div{
+    margin-bottom: 2rem;
+}
+.login .email{
+    width: 26rem;
+    height: 2.3rem;
+}
+.login .name{
+    width: 9rem;
+    height: 2.1rem;
+}
+.login .tel{
+    width: 11.9rem;
+    height: 2.1rem;
+}
+.login textarea{
+    width: 26rem;
+    height: 8rem;
+    resize: none;
+}
+.login .indent{
+    text-indent: 3rem;
+}
+.login .indent .name{
+    margin-right: 1rem;
+}
+.login .btn{
+    margin-left: 6.5rem;
+    color: #ffffff;
+    background-color: #40B3E5;
+    width: 7rem;
+    padding: .3rem .9rem;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 0;
+}
+.login .contact{
+    padding-top: 1rem;
+}
+.login .contact p{
+    font-size: 1.5rem;
+    color: #919191;
+}
